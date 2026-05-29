@@ -53,7 +53,7 @@ header {
   position: sticky;
   top: 0;
   left: 0;
-  z-index: 2;
+  z-index: 10;
 }
 
 header .navbar {
@@ -261,6 +261,7 @@ header.sticking .dropdowns {
   padding: 30px;
   transition: all 0.5s;
   opacity: 0;
+  width: 100%;
 }
 
 .learn-dropdown .card {
@@ -279,6 +280,7 @@ header.sticking .dropdowns {
   overflow: hidden;
   border-radius: 12px;
   border: 1px solid black;
+  position: relative;
 }
 
 .learn-dropdown .img-container img {
@@ -331,6 +333,8 @@ header.sticking .dropdowns {
   overflow: hidden;
   border: 1px solid black;
   border-radius: 12px;
+  position: relative;
+  height: 12vw;
 }
 
 .shop-dropdown .cards .img-container img {
